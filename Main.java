@@ -18,6 +18,34 @@ public class Main {
          count++;
       }
 
+      // FOR LOOPS: when u knpw how mant times to iterate
+      // for (initialze; test condition; change;)
+      
+      for (int i = 5; i <= 27; i++  ) {
+         System.out.println(i);
+      }
+      //modify change step to skip certain num
+      for (int i = 0; i <=10; i+=2) {
+          System.out.println(i);
+        
+      }
+for (int i = 5; i > 0; i--) {
+          System.out.println(i);
+        
+          if (i == 1) {
+            System.out.println("BLAST OFFFF");
+          }
+      }
+   
+
+
+
+
+
+
+
+
+
 
    }
 }
